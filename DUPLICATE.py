@@ -4,7 +4,7 @@ b=[]
 for i in s:
     a=[]
     for j in i:
-        if i.count(j)==1 and i not in a and a.append(j) and i not in islower() :
+        if i.count(j)==1 and i not in a and a.append(j) :
             print(end="")
     print(a)
     if len(a)<k:
